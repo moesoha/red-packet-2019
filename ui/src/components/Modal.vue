@@ -13,9 +13,7 @@
                     </slot>
                 </div>
                 <div class="modal-footer">
-                    <slot name="footer">
-                        <button class="modal-default-button" @click="$emit('close')">好</button>
-                    </slot>
+                    <slot name="footer" />
                 </div>
             </div>
         </div>
