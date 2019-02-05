@@ -30,7 +30,7 @@ class MyRedis extends Redis{
 	}
 	
 	public function setCache($ip='',$return=''){
-		return $this->setEx($ip,60,$return);
+		return $this->setEx($ip,15,$return);
 	}
 	
 	public function getCache($ip=''){
